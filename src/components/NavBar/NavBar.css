@@ -10,7 +10,7 @@
 .navbar-logo {
     color: #fff;
     justify-self: start;
-    margin-left: 20px;
+    margin-left: 10px;
     cursor: pointer;
 }
 
@@ -112,4 +112,15 @@
         display: none;
     }
 
+}
+
+.main-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sec-logo {
+    width: 2.6rem;
+    height: 2.6rem;
 }

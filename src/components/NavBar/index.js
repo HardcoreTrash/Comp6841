@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Button } from '../Button'
 import { MenuItems } from "./MenuItems"
 import './NavBar.css'
+import { Link } from "react-router-dom";
 
 class NavBar extends Component {
     state = { clicked: false }
@@ -10,10 +11,19 @@ class NavBar extends Component {
         this.setState({ clicked: !this.state.clicked })
     }
 
+    onClick = (link) => {
+        return function() {
+            window.open(link);
+        }
+    }
+
     render() {
         return(
             <nav className="NavBarItems">
-                <h1 className="navbar-logo">React<i className="fab fa-react"></i></h1>
+                <div className="main-logo">
+                    <img src={process.env.PUBLIC_URL + "/secLogo.png"} className="sec-logo"></img>
+                    <h1 className="navbar-logo">Something-Awesome</h1>
+                </div>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
@@ -21,14 +31,14 @@ class NavBar extends Component {
                     {MenuItems.map((item, index) => {
                         return (
                             <li key={index}>
-                                <a className={item.cName} href={item.url}>
+                                <Link to={item.url} className={item.cName} >
                                     {item.title}
-                                </a>
+                                </Link>
                             </li>
                         )
                     })}
                 </ul>
-                <Button>GitHub Repo</Button>
+                <Button onClick={this.onClick("https://github.com/HardcoreTrash/Comp6841/tree/master")}>GitHub</Button>
             </nav>
         )
     }
