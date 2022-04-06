@@ -2,10 +2,10 @@ import React from "react";
 import './App.css';
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
-import Home from './pages';
-import Hacking from './pages/hacking';
 import NavBar from "./components/NavBar";
-// import NavBar from './components/NavBar/NavBar'
+import Home from './pages';
+import Hacking from './pages/Hacking';
+import Defending from './pages/Defending';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Routes>
           <Route exact path='/' exact element={<Home />} />
           <Route path='/hacking' element={<Hacking/>} />
+          <Route path='/defending' element={<Defending/>} />
       </Routes>
     </Router>
   );
