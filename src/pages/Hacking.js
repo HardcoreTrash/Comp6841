@@ -4,18 +4,11 @@ const Hacking = () => {
   return (
     <div>
       <h1>Ethical Hacking Tools</h1>
-      <h2>Invicti</h2>
-      <h2>Acunetix</h2>
-      <h2>Syxsense</h2>
-      <h2>SolarWinds Security Event Manager</h2>
       <h2>Traceroute NG</h2>
-      <h2>Burp Suite</h2>
       <h2>Ettercap</h2>
       <h2>Aircrack</h2>
       <h2>Angry IP Scanner</h2>
-      <h2>LiveAction</h2>
       <h2>QualysGuard</h2>
-      <h2>WebInspect</h2>
       <h2>Hashcat</h2>
       <h2>L0phtCrack</h2>
       <h2>Rainbow Crack</h2>

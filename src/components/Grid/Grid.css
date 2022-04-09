@@ -1,0 +1,10 @@
+.grid-size {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-margin {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 10px;
+}

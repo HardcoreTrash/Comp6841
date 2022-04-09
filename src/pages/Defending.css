@@ -1,9 +1,6 @@
-.display-cards {
-    /* display: flex;
-    flex-direction: row; */
+.title-style {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    color: rgba(black, 0.15);
+    gap: 40px;
 }

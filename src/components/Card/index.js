@@ -15,7 +15,7 @@ export default function ActionAreaCard({title, image, text, link}) {
     }
     
     return (
-        <Card sx={{ maxWidth: 345 }} onClick={routeChange(link)}>
+        <Card sx={{ width: 345 }} onClick={routeChange(link)}>
         <CardActionArea>
             <CardMedia
             component="img"
