@@ -4,6 +4,9 @@ const Hacking = () => {
   return (
     <div>
       <h1>Ethical Hacking Tools</h1>
+
+      <p>Hacking tools are computer programs and scripts that help you find and exploit weakness in computer systems, web applications, servers and networks</p>
+
       <h2>Traceroute NG</h2>
       <h2>Ettercap</h2>
       <h2>Aircrack</h2>
@@ -20,7 +23,9 @@ const Hacking = () => {
       <h2>Cain & Abel</h2>
       <h2>Nessus</h2>
       <h2>Zenmap</h2>
-      
+      <h2>Metasploit</h2>
+      <h2>Aircrack-Ng</h2>
+
     </div>
   );
 };

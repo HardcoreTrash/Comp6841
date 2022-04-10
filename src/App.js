@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import Home from './pages';
 import Hacking from './pages/Hacking';
 import Defending from './pages/Defending';
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
           <Route path='/hacking' element={<Hacking/>} />
           <Route path='/defending' element={<Defending/>} />
       </Routes>
+      <Footer />
     </Router>
-  );
+    );
 }
 
 export default App;
