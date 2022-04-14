@@ -9,7 +9,6 @@ const Defending = () => {
       <h1>CyberSecurity Tools</h1>
       <p className='card-margin'> Cyber Security is a very serious matter so it is critical for you to understand how cyber defense works</p>
       <Grid list={CardItems} />
-      
     </div>
   );
 };
