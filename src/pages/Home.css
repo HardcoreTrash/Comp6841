@@ -23,6 +23,7 @@
 }
 
 .list-style {
+    margin-top: 10px;
     margin-left: 50px;
     display: flex;
     flex-direction: column;

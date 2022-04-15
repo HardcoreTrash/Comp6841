@@ -11,12 +11,20 @@ import KaliLinux from './pages/Defending/KaliLinux';
 import Keepass from './pages/Defending/Keepass';
 import Metasploit from './pages/Hacking/Metasploit';
 import Nikto from './pages/Defending/Nikto';
-import Nmap from './pages/Defending/Nmap';
-import OpenVAS from './pages/Defending/OpenVAS';
+import Nmap from './pages/Hacking/Nmap';
+import OpenVAS from './pages/Hacking/OpenVAS';
+import OSSEC from './pages/Defending/OSSEC';
+import SecurityOnion from './pages/Defending/SecurityOnion';
+import VeraCrypt from './pages/Defending/VeraCrypt';
 
 function App() {
   return (
     <div className="bg-colour">
+      {/* 
+      Add automatic Carousel that shows new
+      https://darknetdiaries.com/
+      https://risky.biz/
+      */}
       <Router>
         <NavBar />
         <Routes>
@@ -26,18 +34,20 @@ function App() {
             <Route path='/defending/kali-linux' element={<KaliLinux/>} />
             <Route path='/defending/keepass' element={<Keepass/>} />
             <Route path='/defending/nikto' element={<Nikto/>} />
-            <Route path='/defending/nmap' element={<Nmap/>} />
-            <Route path='/defending/openvas' element={<OpenVAS/>} />
-            <Route path='/defending/ossec' element={<Defending/>} />
-            <Route path='/defending/security-onion' element={<Defending/>} />
-            <Route path='/defending/veracrypt' element={<Defending/>} />
+            <Route path='/defending/ossec' element={<OSSEC/>} />
+            <Route path='/defending/security-onion' element={<SecurityOnion/>} />
+            <Route path='/defending/veracrypt' element={<VeraCrypt/>} />
+
             <Route path='/defending/wireshark' element={<Defending/>} />
             <Route path='/defending/bitwarden' element={<Defending/>} />
             <Route path='/defending/netsparker' element={<Defending/>} />
             <Route path='/defending/cis' element={<Defending/>} />
             <Route path='/defending/snort' element={<Defending/>} />
             <Route path='/defending/w3af' element={<Defending/>} />
+            
             <Route path='/hacking/metasploit' element={<Metasploit/>} />
+            <Route path='/hacking/nmap' element={<Nmap/>} />
+            <Route path='/hacking/openvas' element={<OpenVAS/>} />
         </Routes>
         <Footer />
       </Router>

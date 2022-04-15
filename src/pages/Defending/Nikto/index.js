@@ -119,6 +119,9 @@ const Nikto = () => {
                 <h4 onClick={onClick("https://github.com/sullo/nikto")} className="link-hover">
                     GitHub Repository
                 </h4>
+                <h4 onClick={onClick("https://www.freecodecamp.org/news/an-introduction-to-web-server-scanning-with-nikto/")} className="link-hover">
+                    Tutorial
+                </h4>
             </ul>
         </div>
         </div>

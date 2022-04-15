@@ -1,11 +1,26 @@
 export const HackingCard = [
     {
         title: 'Metasploit Framework',
-        image: '',
+        image: `${process.env.PUBLIC_URL}/meta.jpeg`,
         text: 'hey hey',
         url: '/hacking/metasploit',
         cName: 'nav-links'
     },
+    {
+        title: 'Nmap',
+        image: `${process.env.PUBLIC_URL}/nmap.jpeg`,
+        text: 'hey hey',
+        url: '/hacking/nmap',
+        cName: 'nav-links'
+    },
+    {
+        title: 'OpenVAS',
+        image: `${process.env.PUBLIC_URL}/vas.jpeg`,
+        text: 'hey hey',
+        url: '/hacking/openvas',
+        cName: 'nav-links'
+    },
+
     {
         title: 'Traceroute NG',
         image: '',
@@ -89,13 +104,6 @@ export const HackingCard = [
         image: '',
         text: 'hey hey',
         url: '/hacking/nessus',
-        cName: 'nav-links'
-    },
-    {
-        title: 'Zenmap',
-        image: '',
-        text: 'hey hey',
-        url: '/hacking/zenmap',
         cName: 'nav-links'
     },
 ]

@@ -1,56 +1,43 @@
 export const CardItems = [
     {
         title: 'Kali Linux',
-        image: '',
+        image: `${process.env.PUBLIC_URL}/kali.jpeg`,
         text: 'hey hey',
         url: '/defending/kali-linux',
         cName: 'nav-links'
     },
     {
         title: 'KeePass',
-        image: '',
+        image: `${process.env.PUBLIC_URL}/kee.jpeg`,
         text: 'hey hey',
         url: '/defending/keepass',
         cName: 'nav-links'
     },
     {
         title: 'Nikto',
-        image: '',
+        image: `${process.env.PUBLIC_URL}/nikto.jpeg`,
         text: 'hey hey',
         url: '/defending/nikto',
         cName: 'nav-links'
     },
-    {
-        title: 'Nmap',
-        image: '',
-        text: 'hey hey',
-        url: '/defending/nmap',
-        cName: 'nav-links'
-    },
-    {
-        title: 'OpenVAS',
-        image: '',
-        text: 'hey hey',
-        url: '/defending/openvas',
-        cName: 'nav-links'
-    },
+
     {
         title: 'OSSEC',
-        image: '',
+        image: `${process.env.PUBLIC_URL}/ossec.jpeg`,
         text: 'hey hey',
         url: '/defending/ossec',
         cName: 'nav-links'
     },
     {
         title: 'Security Onion',
-        image: '',
+        image: `${process.env.PUBLIC_URL}/onion.jpeg`,
         text: 'hey hey',
         url: '/defending/security-onion',
         cName: 'nav-links'
     },
     {
         title: 'VeraCrypt',
-        image: '',
+        image: `${process.env.PUBLIC_URL}/vera.jpeg`,
         text: 'hey hey',
         url: '/defending/veracrypt',
         cName: 'nav-links'
