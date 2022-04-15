@@ -20,38 +20,24 @@ export const HackingCard = [
         url: '/hacking/openvas',
         cName: 'nav-links'
     },
-
-    {
-        title: 'Traceroute NG',
-        image: '',
-        text: 'hey hey',
-        url: '/hacking/traceroute-ng',
-        cName: 'nav-links'
-    },
     {
         title: 'Ettercap',
-        image: '',
+        image: `${process.env.PUBLIC_URL}/etter.jpeg`,
         text: 'hey hey',
         url: '/hacking/ettercap',
         cName: 'nav-links'
     },
+
     {
         title: 'Aircrack',
-        image: '',
+        image: `${process.env.PUBLIC_URL}/air.jpeg`,
         text: 'hey hey',
         url: '/hacking/aircrack',
         cName: 'nav-links'
     },
     {
-        title: 'QualysGuard',
-        image: '',
-        text: 'hey hey',
-        url: '/hacking/qualysguard',
-        cName: 'nav-links'
-    },
-    {
         title: 'Hashcat',
-        image: '',
+        image: `${process.env.PUBLIC_URL}/hash.jpeg`,
         text: 'hey hey',
         url: '/hacking/hashcat',
         cName: 'nav-links'

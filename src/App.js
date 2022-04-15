@@ -16,6 +16,9 @@ import OpenVAS from './pages/Hacking/OpenVAS';
 import OSSEC from './pages/Defending/OSSEC';
 import SecurityOnion from './pages/Defending/SecurityOnion';
 import VeraCrypt from './pages/Defending/VeraCrypt';
+import Ettercap from './pages/Hacking/Ettercap';
+import AirCrack from "./pages/Hacking/AirCrackNG";
+import HashCat from "./pages/Hacking/HashCat";
 
 function App() {
   return (
@@ -44,10 +47,14 @@ function App() {
             <Route path='/defending/cis' element={<Defending/>} />
             <Route path='/defending/snort' element={<Defending/>} />
             <Route path='/defending/w3af' element={<Defending/>} />
-            
+
             <Route path='/hacking/metasploit' element={<Metasploit/>} />
             <Route path='/hacking/nmap' element={<Nmap/>} />
             <Route path='/hacking/openvas' element={<OpenVAS/>} />
+            <Route path='/hacking/ettercap' element={<Ettercap/>} />
+            <Route path='/hacking/aircrack' element={<AirCrack/>} />
+            <Route path='/hacking/hashcat' element={<HashCat/>} />
+
         </Routes>
         <Footer />
       </Router>
