@@ -1,6 +1,5 @@
 import React from "react";
 import Divider from '@mui/material/Divider';
-import { MenuItems } from "../../../components/NavBar/MenuItems";
 
 const KaliLinux = () => {
     function onClick(link) {
@@ -47,10 +46,10 @@ const KaliLinux = () => {
     ]
 
     const fourthList = [
-        {description: <div>Download Kali Linux tools at <a onClick={onClick("https://www.kali.org/tools/")}>https://www.kali.org/tools/</a></div>, key: 0},
-        {description: 'Click Import from the options in your opened VirtualBox', key: 1},
-        {description: <div>Go to File<ul><li>Click the browse file icon: Select the Open virtualization Format Archive file download in step 1</li></ul></div>, key: 2},
-        {description: 'Click Start', key: 4},
+        {description: <div>Download Kali Linux tools at <a href="https://www.kali.org/tools/">https://www.kali.org/tools/</a></div>, key: 0},
+        {description: 'Choose a tool', key: 1},
+        {description: <div>Install the tool from the terminal<ul>sudo app install [tool]</ul></div>, key: 2},
+        {description: <div>Read the tool's documentation</div>, key: 3},
     ]
 
     return (
@@ -282,18 +281,18 @@ const KaliLinux = () => {
             <h2>Extra Resources</h2>
             <Divider />
             <ul>
-                <div onClick={onClick("https://www.kali.org/get-kali/")}>
+                <h4 onClick={onClick("https://www.kali.org/get-kali/")} className="link-hover">
                     Downloads
-                </div>
-                <div onClick={onClick("https://www.kali.org/docs/installation/")}>
+                </h4>
+                <h4 onClick={onClick("https://www.kali.org/docs/installation/")} className="link-hover">
                     Installation Guide
-                </div>
-                <div onClick={onClick("https://www.kali.org/docs/")}>
+                </h4>
+                <h4 onClick={onClick("https://www.kali.org/docs/")} className="link-hover">
                     Documentation
-                </div>
-                <div onClick={onClick("https://gitlab.com/kalilinux")}>
+                </h4>
+                <h4 onClick={onClick("https://gitlab.com/kalilinux")} className="link-hover">
                     GitHub Repository
-                </div>
+                </h4>
             </ul>
         </div>
         </div>

@@ -9,7 +9,7 @@ const Home = () => {
       <div className='section-1'>
         <h2>Ethical Hacking</h2>
         <Divider />
-        <p>
+        <p className='paragraph-font'>
           Ethical hacking is a process of detecting vulnerabilities in an application, system, or 
           organization’s infrastructure so that an attacker can use it to exploit an individual or 
           organization. This process was developed to prevent cyber attacks and security breaches by 

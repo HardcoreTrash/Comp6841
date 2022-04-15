@@ -1,100 +1,101 @@
-export const CardItems = [
+export const HackingCard = [
     {
-        title: 'Kali Linux',
+        title: 'Metasploit Framework',
         image: '',
         text: 'hey hey',
-        url: '/defending/kali-linux',
+        url: '/hacking/metasploit',
         cName: 'nav-links'
     },
     {
-        title: 'KeePass',
+        title: 'Traceroute NG',
         image: '',
         text: 'hey hey',
-        url: '/defending/keepass',
+        url: '/hacking/traceroute-ng',
         cName: 'nav-links'
     },
     {
-        title: 'Nikto',
+        title: 'Ettercap',
         image: '',
         text: 'hey hey',
-        url: '/defending/nikto',
+        url: '/hacking/ettercap',
         cName: 'nav-links'
     },
     {
-        title: 'Nmap',
+        title: 'Aircrack',
         image: '',
         text: 'hey hey',
-        url: '/defending/nmap',
+        url: '/hacking/aircrack',
         cName: 'nav-links'
     },
     {
-        title: 'OpenVAS',
+        title: 'QualysGuard',
         image: '',
         text: 'hey hey',
-        url: '/defending/openvas',
+        url: '/hacking/qualysguard',
         cName: 'nav-links'
     },
     {
-        title: 'OSSEC',
+        title: 'Hashcat',
         image: '',
         text: 'hey hey',
-        url: '/defending/ossec',
+        url: '/hacking/hashcat',
+        cName: 'nav-links'
+
+    },
+    {
+        title: 'Rainbow Crack',
+        image: '',
+        text: 'hey hey',
+        url: '/hacking/rainbow-crack',
         cName: 'nav-links'
     },
     {
-        title: 'Security Onion',
+        title: 'IKECrack',
         image: '',
         text: 'hey hey',
-        url: '/defending/security-onion',
+        url: '/hacking/ikecrack',
         cName: 'nav-links'
     },
     {
-        title: 'VeraCrypt',
+        title: 'Sboxr',
         image: '',
         text: 'hey hey',
-        url: '/defending/veracrypt',
+        url: '/hacking/sboxr',
         cName: 'nav-links'
     },
     {
-        title: 'Wireshark',
+        title: 'Medusa',
         image: '',
         text: 'hey hey',
-        url: '/defending/wireshark',
+        url: '/hacking/medusa',
         cName: 'nav-links'
     },
     {
-        title: 'Bitwarden',
+        title: 'NetStubler',
         image: '',
         text: 'hey hey',
-        url: '/defending/bitwarden',
+        url: '/hacking/netStubler',
         cName: 'nav-links'
     },
     {
-        title: 'Netsparker',
+        title: 'SQLMap',
         image: '',
         text: 'hey hey',
-        url: '/defending/netsparker',
+        url: '/hacking/sqlmap',
         cName: 'nav-links'
     },
     {
-        title: 'CIS',
+        title: 'Nessus',
         image: '',
         text: 'hey hey',
-        url: '/defending/cis',
+        url: '/hacking/nessus',
         cName: 'nav-links'
     },
     {
-        title: 'Snort',
+        title: 'Zenmap',
         image: '',
         text: 'hey hey',
-        url: '/defending/snort',
-        cName: 'nav-links'
-    },
-    {
-        title: 'w3af',
-        image: '',
-        text: 'hey hey',
-        url: '/defending/w3af',
+        url: '/hacking/zenmap',
         cName: 'nav-links'
     },
 ]
