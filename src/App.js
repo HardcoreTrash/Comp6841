@@ -19,6 +19,9 @@ import VeraCrypt from './pages/Defending/VeraCrypt';
 import Ettercap from './pages/Hacking/Ettercap';
 import AirCrack from "./pages/Hacking/AirCrackNG";
 import HashCat from "./pages/Hacking/HashCat";
+import SQLMap from "./pages/Hacking/SQLMap";
+import WireShark from "./pages/Defending/WireShark";
+import BitWarden from "./pages/Defending/BitWarden";
 
 function App() {
   return (
@@ -41,12 +44,8 @@ function App() {
             <Route path='/defending/security-onion' element={<SecurityOnion/>} />
             <Route path='/defending/veracrypt' element={<VeraCrypt/>} />
 
-            <Route path='/defending/wireshark' element={<Defending/>} />
-            <Route path='/defending/bitwarden' element={<Defending/>} />
-            <Route path='/defending/netsparker' element={<Defending/>} />
-            <Route path='/defending/cis' element={<Defending/>} />
-            <Route path='/defending/snort' element={<Defending/>} />
-            <Route path='/defending/w3af' element={<Defending/>} />
+            <Route path='/defending/wireshark' element={<WireShark/>} />
+            <Route path='/defending/bitwarden' element={<BitWarden/>} />
 
             <Route path='/hacking/metasploit' element={<Metasploit/>} />
             <Route path='/hacking/nmap' element={<Nmap/>} />
@@ -54,6 +53,7 @@ function App() {
             <Route path='/hacking/ettercap' element={<Ettercap/>} />
             <Route path='/hacking/aircrack' element={<AirCrack/>} />
             <Route path='/hacking/hashcat' element={<HashCat/>} />
+            <Route path='/hacking/sqlmap' element={<SQLMap/>} />
 
         </Routes>
         <Footer />
